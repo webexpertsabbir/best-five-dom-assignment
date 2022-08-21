@@ -42,6 +42,10 @@ body{
 }
 
 .select{
-    height: 456px;
+    height: 416px;
     background: rgb(14, 14, 14);
+}
+
+.dark{
+    background: black;
 }
