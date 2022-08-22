@@ -45,6 +45,10 @@ body{
     height: 416px;
     background: rgb(14, 14, 14);
 }
+.select-buget{
+    height: 440px;
+    background: rgb(14, 14, 14);
+}
 
 .dark{
     background: black;
