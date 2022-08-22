@@ -29,7 +29,10 @@ document.getElementById('player-total-price').addEventListener('click', function
     alert('Pleace Input a Number');
     return;
    } 
-   const totalPlayerPrice = perPlayerPrice * 5;
+   const playerNumber = document.querySelectorAll('#name-list');
+   const playerLanght = playerNumber.length;
+   
+   const totalPlayerPrice = perPlayerPrice * playerLanght;
    setCalculatePrice('total-player-price', totalPlayerPrice);
 })
 

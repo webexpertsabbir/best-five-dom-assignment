@@ -19,7 +19,7 @@ body{
  
 }
 .backgroun-overlay{
-    background-color: rgba(0, 0, 0, 0.693);
+    background-color: rgba(0, 0, 0, 0.505);
     background-size: cover;
     position: relative;
     width: 100%;
@@ -48,4 +48,14 @@ body{
 
 .dark{
     background: black;
+}
+
+ 
+li#name-list {
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+ol#add-player {
+    margin: 20px;
 }
